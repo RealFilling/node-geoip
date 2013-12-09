@@ -334,7 +334,7 @@ function processCityDataNames(src, dest, cb) {
 		b.fill(0);
 		b.write(cc, 0);
 		b.write(rg, 2);
-		b.writeInt32BE(lat, 4);
+		b.writeInt32BE(lat, 8);
 		b.writeInt32BE(lon, 8);
 		b.write(city, 12);
 
